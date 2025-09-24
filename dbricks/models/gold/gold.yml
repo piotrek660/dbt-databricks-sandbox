@@ -1,0 +1,121 @@
+version: 2
+models:
+  - name: gold_trips
+
+    config:
+      contract: {enforced: true}
+
+    columns:
+      - name: VendorID
+        description: ''
+        config:
+          meta: {}
+          tags: []
+        constraints:
+          - type: not_null
+          - type: primary_key
+      - name: pickup_date
+        description: ''
+        config:
+          meta: {}
+          tags: []
+      - name: DOLocationID
+        description: ''
+        config:
+          meta: {}
+          tags: []
+      - name: PULocationID
+        description: ''
+        config:
+          meta: {}
+          tags: []
+      - name: payment_type
+        description: ''
+        config:
+          meta: {}
+          tags: []
+      - name: trip_duration_sum
+        description: ''
+        config:
+          meta: {}
+          tags: []
+      - name: trip_duration_max
+        description: ''
+        config:
+          meta: {}
+          tags: []
+      - name: trip_duration_avg
+        description: ''
+        config:
+          meta: {}
+          tags: []
+      - name: trip_duration_min
+        description: ''
+        config:
+          meta: {}
+          tags: []
+      - name: passenger_count_sum
+        description: ''
+        config:
+          meta: {}
+          tags: []
+      - name: passenger_count_avg
+        description: ''
+        config:
+          meta: {}
+          tags: []
+      - name: passenger_count_max
+        description: ''
+        config:
+          meta: {}
+          tags: []
+      - name: trip_km_sum
+        description: ''
+        config:
+          meta: {}
+          tags: []
+      - name: trip_km_avg
+        description: ''
+        config:
+          meta: {}
+          tags: []
+      - name: fare_amount
+        description: ''
+        config:
+          meta: {}
+          tags: []
+      - name: extra
+        description: ''
+        config:
+          meta: {}
+          tags: []
+      - name: mta_tax
+        description: ''
+        config:
+          meta: {}
+          tags: []
+      - name: tip_amount
+        description: ''
+        config:
+          meta: {}
+          tags: []
+      - name: tolls_amount_sum
+        description: ''
+        config:
+          meta: {}
+          tags: []
+      - name: improvement_surcharge
+        description: ''
+        config:
+          meta: {}
+          tags: []
+      - name: total_amount_sum
+        description: ''
+        config:
+          meta: {}
+          tags: []
+      - name: total_amount_avg
+        description: ''
+        config:
+          meta: {}
+          tags: []

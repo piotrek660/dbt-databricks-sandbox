@@ -1,0 +1,117 @@
+[0m07:16:14.802729 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106646180>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1068cb4a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106a880e0>]}
+
+
+============================== 07:16:14.805751 | 964f53d3-d40e-4b11-9a95-874a7328a6f9 ==============================
+[0m07:16:14.805751 [info ] [MainThread]: Running with dbt=1.10.2
+[0m07:16:14.806108 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '/Users/pkostuch/.dbt', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt init', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m07:16:18.455115 [debug] [MainThread]: Starter project path: /Users/pkostuch/.pyenv/versions/3.12.3/envs/dbt-databricks/lib/python3.12/site-packages/dbt/include/starter_project
+[0m07:16:18.465372 [info ] [MainThread]: 
+Your new dbt project "dbricks" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m07:16:18.466149 [info ] [MainThread]: Setting up your profile.
+[0m07:16:23.575341 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m07:16:23.575647 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m07:16:23.575823 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m07:40:17.895752 [info ] [MainThread]: Profile dbricks written to /Users/pkostuch/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m07:40:17.905083 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 1443.1792, "process_in_blocks": "0", "process_kernel_time": 0.33896, "process_mem_max_rss": "208191488", "process_out_blocks": "0", "process_user_time": 1.874275}
+[0m07:40:17.908171 [debug] [MainThread]: Command `dbt init` succeeded at 07:40:17.907868 after 1443.18 seconds
+[0m07:40:17.909375 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c41a4b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b3c6870>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108782930>]}
+[0m07:40:17.910104 [debug] [MainThread]: Flushing usage events
+[0m07:40:18.449669 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m07:40:26.787326 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1073188f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108d887a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108d888f0>]}
+
+
+============================== 07:40:26.790584 | 7485a79f-087c-43c8-ba82-608d49049c41 ==============================
+[0m07:40:26.790584 [info ] [MainThread]: Running with dbt=1.10.2
+[0m07:40:26.790960 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': '/Users/pkostuch/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m07:40:26.801781 [info ] [MainThread]: dbt version: 1.10.2
+[0m07:40:26.802170 [info ] [MainThread]: python version: 3.12.3
+[0m07:40:26.802455 [info ] [MainThread]: python path: /Users/pkostuch/.pyenv/versions/3.12.3/envs/dbt-databricks/bin/python
+[0m07:40:26.802678 [info ] [MainThread]: os info: macOS-15.5-arm64-arm-64bit
+[0m07:40:26.807069 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.athena'
+[0m07:40:26.809685 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.bigquery'
+[0m07:40:27.284333 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m07:40:27.284630 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m07:40:27.284816 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m07:40:27.713371 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.duckdb'
+[0m07:40:27.714407 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.duckdb'
+[0m07:40:27.715272 [info ] [MainThread]: target not specified in profile 'elementary', using 'default'
+[0m07:40:27.733073 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.bigquery'
+[0m07:40:27.735641 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.glue'
+[0m07:40:27.736619 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.bigquery'
+[0m07:40:27.737676 [info ] [MainThread]: Using profiles dir at /Users/pkostuch/.dbt
+[0m07:40:27.737856 [info ] [MainThread]: Using profiles.yml file at /Users/pkostuch/.dbt/profiles.yml
+[0m07:40:27.738020 [info ] [MainThread]: Using dbt_project.yml file at /Users/pkostuch/Documents/GitHub/dbt-databricks-sandbox/dbt_project.yml
+[0m07:40:27.738181 [info ] [MainThread]: Configuration:
+[0m07:40:27.738328 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m07:40:27.738523 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m07:40:27.738740 [info ] [MainThread]: Required dependencies:
+[0m07:40:27.738997 [debug] [MainThread]: Executing "git --help"
+[0m07:40:27.760694 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m07:40:27.761333 [debug] [MainThread]: STDERR: "b''"
+[0m07:40:27.761556 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m07:40:27.761821 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m07:40:27.762130 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m07:40:27.762706 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "athena", target "dev" invalid: Runtime Error
+    Could not find adapter type athena!
+
+Runtime Error
+  Credentials in profile "bq_sandbox", target "dev" invalid: Runtime Error
+    Could not find adapter type bigquery!
+
+Runtime Error
+  Credentials in profile "duck_tales", target "dev" invalid: Runtime Error
+    Could not find adapter type duckdb!
+
+Runtime Error
+  Credentials in profile "duckdb_92", target "dev" invalid: Runtime Error
+    Could not find adapter type duckdb!
+
+Runtime Error
+  Credentials in profile "elementary", target "default" invalid: Runtime Error
+    thrift connection method requires additional dependencies. 
+    Install the additional required dependencies with `pip install dbt-spark[PyHive]`
+
+Runtime Error
+  Credentials in profile "letnia", target "dev" invalid: Runtime Error
+    Could not find adapter type bigquery!
+
+Runtime Error
+  Credentials in profile "nyctaxi", target "dev" invalid: Runtime Error
+    Could not find adapter type glue!
+
+Runtime Error
+  Credentials in profile "playground", target "dev" invalid: Runtime Error
+    Could not find adapter type bigquery!
+
+Runtime Error
+  Credentials in profile "sandbox", target "dev" invalid: Runtime Error
+    thrift connection method requires additional dependencies. 
+    Install the additional required dependencies with `pip install dbt-spark[PyHive]`
+
+
+[0m07:40:27.763247 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Users/pkostuch/Documents/GitHub/dbt-databricks-sandbox/dbt_project.yml> not found
+
+[0m07:40:27.766278 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 1.0218503, "process_in_blocks": "0", "process_kernel_time": 0.194812, "process_mem_max_rss": "213106688", "process_out_blocks": "0", "process_user_time": 1.541184}
+[0m07:40:27.767080 [debug] [MainThread]: Command `dbt debug` failed at 07:40:27.767010 after 1.02 seconds
+[0m07:40:27.767456 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e715bb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b6ed3d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e73a900>]}
+[0m07:40:27.767748 [debug] [MainThread]: Flushing usage events
+[0m07:40:28.287060 [debug] [MainThread]: An error was encountered while trying to flush usage events

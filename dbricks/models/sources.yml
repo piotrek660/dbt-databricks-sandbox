@@ -1,0 +1,140 @@
+version: 2
+
+sources:
+  - name: sandbox
+    database: samples
+    schema: nyctaxi
+    tables:
+      - name: trips
+        columns:
+          - name: tpep_pickup_datetime
+            description: ''
+            config:
+              meta: {}
+              tags: []
+          - name: tpep_dropoff_datetime
+            description: ''
+            config:
+              meta: {}
+              tags: []
+          - name: trip_distance
+            description: ''
+            config:
+              meta: {}
+              tags: []
+          - name: fare_amount
+            description: ''
+            config:
+              meta: {}
+              tags: []
+          - name: pickup_zip
+            description: ''
+            config:
+              meta: {}
+              tags: []
+          - name: dropoff_zip
+            description: ''
+            config:
+              meta: {}
+              tags: []
+  - name: pkostuch_sample
+    database: source
+    schema: nyc
+    tables:
+      - name: yellow_taxi
+        columns:
+          - name: VendorID
+            description: ''
+            config:
+              meta: {}
+              tags: []
+          - name: tpep_pickup_datetime
+            description: ''
+            config:
+              meta: {}
+              tags: []
+          - name: tpep_dropoff_datetime
+            description: ''
+            config:
+              meta: {}
+              tags: []
+          - name: passenger_count
+            description: ''
+            config:
+              meta: {}
+              tags: []
+          - name: trip_distance
+            description: ''
+            config:
+              meta: {}
+              tags: []
+          - name: RatecodeID
+            description: ''
+            config:
+              meta: {}
+              tags: []
+          - name: store_and_fwd_flag
+            description: ''
+            config:
+              meta: {}
+              tags: []
+          - name: PULocationID
+            description: ''
+            config:
+              meta: {}
+              tags: []
+          - name: DOLocationID
+            description: ''
+            config:
+              meta: {}
+              tags: []
+          - name: payment_type
+            description: ''
+            config:
+              meta: {}
+              tags: []
+          - name: fare_amount
+            description: ''
+            config:
+              meta: {}
+              tags: []
+          - name: extra
+            description: ''
+            config:
+              meta: {}
+              tags: []
+          - name: mta_tax
+            description: ''
+            config:
+              meta: {}
+              tags: []
+          - name: tip_amount
+            description: ''
+            config:
+              meta: {}
+              tags: []
+          - name: tolls_amount
+            description: ''
+            config:
+              meta: {}
+              tags: []
+          - name: improvement_surcharge
+            description: ''
+            config:
+              meta: {}
+              tags: []
+          - name: total_amount
+            description: ''
+            config:
+              meta: {}
+              tags: []
+          - name: congestion_surcharge
+            description: ''
+            config:
+              meta: {}
+              tags: []
+          - name: airport_fee
+            description: ''
+            config:
+              meta: {}
+              tags: []

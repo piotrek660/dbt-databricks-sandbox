@@ -1,0 +1,103 @@
+models:
+  - name: stg_trips
+    columns:
+      - name: vendorid
+        description: ''
+        config:
+          meta: {}
+          tags: []
+      - name: pickup_date
+        description: ''
+        config:
+          meta: {}
+          tags: []
+      - name: tpep_pickup_datetime
+        description: ''
+        config:
+          meta: {}
+          tags: []
+      - name: tpep_dropoff_datetime
+        description: ''
+        config:
+          meta: {}
+          tags: []
+      - name: passenger_count
+        description: ''
+        config:
+          meta: {}
+          tags: []
+      - name: trip_distance
+        description: ''
+        config:
+          meta: {}
+          tags: []
+      - name: ratecodeid
+        description: ''
+        config:
+          meta: {}
+          tags: []
+      - name: store_and_fwd_flag
+        description: ''
+        config:
+          meta: {}
+          tags: []
+      - name: pulocationid
+        description: ''
+        config:
+          meta: {}
+          tags: []
+      - name: dolocationid
+        description: ''
+        config:
+          meta: {}
+          tags: []
+      - name: payment_type
+        description: ''
+        config:
+          meta: {}
+          tags: []
+      - name: fare_amount
+        description: ''
+        config:
+          meta: {}
+          tags: []
+      - name: extra
+        description: ''
+        config:
+          meta: {}
+          tags: []
+      - name: mta_tax
+        description: ''
+        config:
+          meta: {}
+          tags: []
+      - name: tip_amount
+        description: ''
+        config:
+          meta: {}
+          tags: []
+      - name: tolls_amount
+        description: ''
+        config:
+          meta: {}
+          tags: []
+      - name: improvement_surcharge
+        description: ''
+        config:
+          meta: {}
+          tags: []
+      - name: total_amount
+        description: ''
+        config:
+          meta: {}
+          tags: []
+      - name: load_date
+        description: ''
+        config:
+          meta: {}
+          tags: []
+    config:
+      databricks_tags:
+        data_classification: stg
+
+      auto_liquid_cluster: true
